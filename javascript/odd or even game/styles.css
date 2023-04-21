@@ -1,0 +1,81 @@
+	body{
+			background-color: black;
+		}
+		h1{
+			text-align: center;
+			color: white;
+			font-size: 30px;
+		}
+		.container{
+			width: 800px;
+			height: 150px;
+			border: 2px solid red;
+			margin: 0 auto;
+		}
+		.player{
+			display: flex;
+		}
+		.player1{
+			color: white;
+			font-size: 25px;
+			margin-left: 400px;
+
+		}
+		.player2{
+			color: white;
+			font-size: 25px;
+			margin-left: 500px;
+		}
+		.leftcircle, .rightcircle{
+			margin: 50px 20px;
+			display: flex;
+		}
+		.leftcircle{
+			float: left;
+		}
+		.rightcircle{
+			margin-top: -50px;
+			float: right;
+		}
+		.circle
+        {
+        	width: 50px;
+        	height: 50px;
+        	border-radius: 30px;
+        	border: 1px solid white;
+        	margin-left: 4px;
+        }
+        .score
+        {
+          
+        } 
+        .score p{
+        	color: white;
+        }
+        .end{
+        	margin-top: 25px;
+        	margin-left: 400px;
+        }
+        button{
+        	padding: 12px 20px;
+        	border: none;
+        	background-color:honeydew;
+        }
+        .refresh{
+        	float: right;
+        	margin-right: 400px;
+        	margin-top: -50px;
+        }
+        .center{
+        	display: flex;
+        }
+        .center p{
+			color: white;
+			margin-left: 30px;
+			margin-top: 70px;
+        }
+        .wait{
+        	margin-left: -400px;
+        	margin-top: -40px;
+        	
+        }

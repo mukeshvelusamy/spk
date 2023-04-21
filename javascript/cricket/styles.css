@@ -1,0 +1,136 @@
+		body{
+			background-image: url(https://images.unsplash.com/photo-1559579313-021b6ec9f6d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhZGl1bXxlbnwwfHwwfHw%3D&w=1000&q=80);
+			background-repeat:no-repeat;
+			background-position: conter;
+			background-size: cover;
+
+		}
+		h1{
+			text-align: center;
+			color: red;
+			font-size: 30px;
+		}
+		.container{
+			width: 800px;
+			height: 550px;
+			/*border: 2px solid  rgba(100, 100, 100, 0.5);*/
+			background-color: rgba(100, 100, 100, 0.5);
+			margin: 0 auto;
+		}
+		.player{
+			display: flex;
+		}
+		.player1{
+			color: white;
+			font-size: 25px;
+			font-weight: bold;
+			margin-left: 94px;
+			padding: 4px 12px;
+			background-color: rgba(98, 100, 10,43);
+        font-family: 'Titillium Web', sans-serif;
+		}
+		.player2{
+			color: white;
+			font-weight: bold;
+			font-size: 25px;
+			margin-left: 375px;
+			padding: 4px 12px;
+			background-color: rgba(98, 100, 10,43);
+            font-family: 'Titillium Web', sans-serif;
+		}
+		img{
+			border-radius: 50px;
+		}
+		.leftcircle, .rightcircle{
+			margin: 50px 20px;
+			display: flex;
+		}
+		.leftcircle{
+			float: left;
+		}
+		.rightcircle{
+			margin-top: -50px;
+			float: right;
+		}
+		.circle
+        {
+        	width: 50px;
+        	height: 50px;
+        	background-color: white;
+        	border: 1px solid white;
+        	margin-left: 4px;
+        	font-size: 30px;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	color:red;
+        }
+        .score p{
+        	color: red;
+        }
+        .end{
+        	display: flex;
+        	justify-content: space-between;
+        	align-items: flex-start;
+        	width: 100%;
+        	height: 200px;
+        	margin-top: -240px;
+        }
+        .submit{
+        	width: 250px;
+        	height: 40px;
+        	border: none;
+        	background-color:honeydew;
+        	margin-left: 35px;
+             	
+        }
+        .refresh{
+        	float: right;
+        	width: 250px;
+        	height: 40px;
+        	border: none;
+        	margin-right: 35px;
+        	background-color:honeydew;
+
+        }
+        .center{
+        	display: flex;
+        }
+        .center p{
+			color: antiquewhite;
+			margin-left: 30px;
+			margin-top: 70px;
+        }
+        .end button{
+        	background-color: #e7e7e7;
+        }
+        .wait{
+        	text-align: center;
+        	font-family: fantasy;
+        	border:none;
+        	color: white;
+        	margin:20px;
+        	background-color: green;
+        	margin-top: -100px;
+
+        }
+        .img1{
+        	width: 100px;
+        	height: 100px;
+        	margin-left: 100px;
+
+        }
+        .img2{
+        	width: 100px;
+        	height: 100px;
+        	margin-left: 380px;
+
+        }
+        .teamimg{
+        	margin-top: 10px;
+        	display: inline-block;
+        }
+        .ronaldo{
+        	display: none;
+        }
+       

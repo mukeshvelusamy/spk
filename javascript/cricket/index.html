@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cricket game with number</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CRICKET GAME</h1>
+
+<div class=container>
+	<div class="player">
+	<p class="player1">Player 1</p>
+	<p class="player2">Player 2</p>
+</div>
+	<div class="teamimg">
+			<img class="img1" src="https://cdn.imgbin.com/22/8/3/imgbin-2015-16-fc-barcelona-season-football-uefa-champions-league-lionel-messi-fc-barcelona-j8tzpBug3k5FgvDwuUDXyhwm9.jpg">
+			<img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9sUPY99ijPuWZIduRfIY6tKMlAMn7lMhezA&usqp=CAU">
+	</div>
+	<div class="cireclecontainer" >
+		<div class="leftcircle" id="leftcircle">
+			<div class="circle"><p id="g"></p></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>	
+		</div>
+		<div class="center">
+			<p id="p1score">0</p>
+			<p>:</p>
+			<p id="p2score">0</p>
+		</div>
+	
+		<div class="rightcircle" id="rightcircle">
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>	
+		</div>
+	</div>
+	<div class="end">
+			<button class="submit" id="btn" onclick="myFunction()">Throw ball A</button>
+			<!-- <button class="submit"id="ronaldo">Ronaldo</button>-->
+			
+			<button class="refresh" onclick="window.location.reload()">Tryagain</button>
+    </div>
+    <h1 class="wait" id="wait"></h1>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
